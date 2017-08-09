@@ -32,7 +32,7 @@ The result is a JSON object, in example:
 - /paths.js: A module that retrieves information about paths between github users
 - /dataSrcGitDummy.js: A mock database holding users and repository data
 - /node_modules: Third-party frameworks
-- /test: holds test units - testing can be done by:
+- /test: Test units - testing can be done by:
 
 ```
 npm run test
