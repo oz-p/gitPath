@@ -1,0 +1,18 @@
+{
+  "name": "gitpath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pathFinder.js",
+  "dependencies": {
+    "restify": "^5.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC"
+}
