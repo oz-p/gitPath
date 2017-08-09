@@ -31,8 +31,8 @@ The result is a JSON object, in example:
 - /pathFinder.js: The main endpoint file, used to launch the server
 - /paths.js: A module that retrieves information about paths between github users
 - /dataSrcGitDummy.js: A mock database holding users and repository data
-- /node_modules: Third-party frameworks
-- /test: Test units - testing can be done by:
+- /node_modules/: Third-party frameworks
+- /test/: Test units - testing can be done by:
 
 ```
 npm run test
