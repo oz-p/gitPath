@@ -30,6 +30,9 @@ The result is a JSON object, in example:
 The module lists all the repositories that user1 contibuted to and checks if user2 contributed to that repository, if not then it goes deeper another level to each repository and perform the same check, and so on and so on. 
 It counts the number of hops until it reaches user2 in each valid path and picks the shortest one.
 
+# Try It!
+Go to the demo page on http://gitpathdemo.bitballoon.com/ to try it out.
+
 # Files/Folders
 - /pathFinder.js: The main endpoint file, used to launch the server
 - /paths.js: A module that retrieves information about paths between github users
