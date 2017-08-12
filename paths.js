@@ -35,7 +35,7 @@ paths = {
 					break;
 				}
 			//console.log(' -- Repo: '+ repoId);
-			if (fromRepId && fromRepId==repoId || repoChecked) continue;
+			if ((fromRepId && fromRepId==repoId) || repoChecked) continue;
 			
 			checkedRepos.push(repoId);
 			
@@ -68,7 +68,7 @@ paths = {
 						{
 							// If going deeper resulted in a valid path and if currently it is also the shortest one that was found, then remember it
 							uHopsResult.hops++;
-							if (uHopsResult.hops!=0 && (uHopsResult.hops<nUsersHops || nUsersHops==0))
+							if (uHopsResult.hops<nUsersHops || nUsersHops==0)
 							{
 								nUsersHops = uHopsResult.hops;
 								pathAddition = data.getUser(ruId)['uName'] + uHopsResult.path;
