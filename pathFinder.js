@@ -3,7 +3,7 @@ var paths = require('./paths.js');
 
 
 // usersPath - REST endpoint that finds path between two users
-// params userId1, userId2 - string: Ids of the two users that we want to find the path for them
+// params req.userId1, req.userId2 - string: Ids of the two users that we want to find the path for them
 function usersPath(req, res, next) {
 	var result = {'error':1};
 	
@@ -20,7 +20,7 @@ function usersPath(req, res, next) {
 
 
 
-//Defining the path of the pathHops endpoint, and its parameters
+//Defining the path of the usersPath endpoint, and its parameters
 var endPointDef = '/usersPath/:userId1/:userId2';
 
 
